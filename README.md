@@ -169,3 +169,50 @@ npm start
 // May o nha
 - Install npm: npm install
 - Start app: npm start
+
+
+Data types: 
+
+Kiểu dữ liệu number:
+Let num = 2 
+
+Kiểu string: 
+let str = 'string'
+
+Kiểu dữ liệu bolean:
+let isOpen = true
+
+Kiểu null:
+let nu = null
+
+Kiểu underfined:
+let a = underfined
+
+
+Kiểu nguyên thủy:
+let arr = [1,2,3] // Array<number>
+
+//Object
+let user = {
+  name : 'asd',
+  age: 12
+}
+
+let new = [...Array[1..5]] // coppy nông
+
+let new2 = JSON.parse(JSON.stringify(user))
+//Tham chiếu, tham trị
+//Copy sâu, copy nông
+
+Cách khởi tạo và sử dụng funtion:
+abc()
+function abc(){
+  //
+}
+
+If (condition) {
+
+} else {
+
+}
+
