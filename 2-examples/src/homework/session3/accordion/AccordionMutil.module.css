@@ -1,0 +1,43 @@
+.active  {
+    background-color: #47b475 !important;
+    color: #ffffff !important;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 24px;
+    padding: 13px;
+    text-align: center;
+    border: none;
+}
+
+.unactive {
+    background-color: #cbcbcb !important;
+    color: #666666 !important;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 24px;
+    padding: 13px;
+    text-align: center;
+    border: none;
+}
+
+.content {
+
+    color: grey;
+    
+    height: 0px;
+ 
+    transition: all 0.2s linear;
+}
+
+.content__show {
+    height: 150px;
+    transition: all 0.8s ease-out
+}
+.content__P__show {
+    height: 150px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 2s ease;
+}
+.HEIGHT__HIC{
+    height: 300px;
+}

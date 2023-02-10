@@ -1,0 +1,21 @@
+.active {
+background-color: #47b475;
+color: #ffffff ;
+display: inline-block;
+font-size: 13px;
+line-height: 24px;
+padding: 13px;
+text-align: center;
+border: none;
+}
+.unactive {
+background-color: #cbcbcb;
+color: #666666 ;
+display: inline-block;
+font-size: 13px;
+line-height: 24px;
+padding: 13px;
+text-align: center;
+border: none;
+}
+
