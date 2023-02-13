@@ -103,7 +103,8 @@ function FormSignup(props: Props) {
         if(params.id){
             getUser()
         }
-    })
+    },[])
+       
 
 
     const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
