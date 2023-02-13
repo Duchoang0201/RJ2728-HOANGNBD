@@ -41,7 +41,7 @@ function UserDetail(props: Props) {
       <div className='container'>
         <div className='warraper'>
           <div className='card mb-3'>
-            <div className='row g-0'>
+            <div className='row'>
               <div className='col-md-4'>
                 <img src='http://localhost:3000/static/media/GALLERY1.f9fb3fb9eee61e5f8706.jpg' className='img-fluid rounded-start' alt='' />
               </div>

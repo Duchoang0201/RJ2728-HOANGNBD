@@ -6,7 +6,8 @@ type Props = {}
 interface IUser {
   name: string,
   age: number,
-  id: string | number
+  id: string | number,
+  cityname: string
 }
 
 function UserDetail(props: Props) {
@@ -52,6 +53,7 @@ function UserDetail(props: Props) {
                 <div className='card-body'>
                   <h5 className={`${styles.Name__UD} card-title`}>Name: {user?.name}</h5>
                   <p className={`${styles.Age__UD} card-text py-4`}>Age: {user?.age}</p>
+                  <p className={`${styles.Age__UD} card-text py-4`}>City of Tuor: {user?.cityname}</p>
                   <p className='card-text'><small className='text-muted'>Number ID: <span className={`${styles.IDD__UD}`}>{user?.id}</span></small></p>
                 </div>
               </div>

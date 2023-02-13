@@ -6,7 +6,9 @@ type Props = {}
 interface IUser {
     name: 'string',
     age: number,
-    id: string | number
+    id: string | number,
+    cityname: string,
+    descripts: string
 }
 function UserList(props: Props) {
     const navigate = useNavigate()
@@ -61,14 +63,16 @@ function UserList(props: Props) {
 
     return (
         <>
-            <div>UserList
-                <table className="table">
+            <div className='container'>Registered tour list
+                <table className="table table-striped table-hover">
                     <thead>
                         <tr >
                             <th scope="col">ID</th>
                             <th scope="col">Name</th>
                             <th scope="col">Age</th>
+                            <th scope="col">City of tuor</th>
                             <th scope="col">Function</th>
+
                         </tr>
                     </thead>
                     <tbody>
@@ -79,13 +83,17 @@ function UserList(props: Props) {
                                 <td>{item.name}</td>
                                 <td>{item.age}</td>
                                 <td>
-                                    <button
+                                    {item.cityname}
+                                    
+                                </td>
+                                <td>
+                                    <button className='btn btn-outline-success'
                                         onClick={() => handleDetail(item.id)}
                                     > Detail</button>
-                                    <button
+                                    <button className='btn btn-outline-success'
                                         onClick={() => handleUpdate(item.id)}
                                     > Update</button>
-                                    <button
+                                    <button className='btn btn-outline-success'
                                         onClick={() => handleDelete(item.id)}
                                     > Delete</button>
                                 </td>
